@@ -1,0 +1,30 @@
+{
+  "title": "日 本 語 の P D F テ ス ト 文 書",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "日 本 語 の P D F テ ス ト 文 書",
+      "page": 1,
+      "language": "ja",
+      "font_size": 18.0
+    },
+    {
+      "level": "H1",
+      "text": "サ ブ セ ク シ ョ ン 2 . 1 : 文 章 例",
+      "page": 1,
+      "language": "ja",
+      "font_size": 18.0
+    },
+    {
+      "level": "H1",
+      "text": "セ ク シ ョ ン 4 : 結 論",
+      "page": 1,
+      "language": "ja",
+      "font_size": 18.0
+    }
+  ],
+  "metadata": {
+    "avg_font_size": 12.53,
+    "total_pages": 1
+  }
+}

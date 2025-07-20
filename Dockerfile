@@ -1,5 +1,11 @@
 FROM --platform=linux/amd64 python:3.9-slim
 
+# Set environment variables for UTF-8 support
+ENV PYTHONUNBUFFERED=1
+ENV PYTHONIOENCODING=utf-8
+ENV LC_ALL=C.UTF-8
+ENV LANG=C.UTF-8
+
 WORKDIR /app
 
 # Copy requirements and install dependencies
