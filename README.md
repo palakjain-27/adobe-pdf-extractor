@@ -3,13 +3,13 @@ A Python tool for extracting document outlines (headings structure) from PDF fil
 Extract structured outlines (H1, H2, H3) from PDF documents using font-size heuristics.
 
 ---
-Features
+# Features
 - Extracts headings (H1, H2, H3) from PDF documents
 
 - Supports multiple languages including:
-   1 English (en)
-   2 Japanese (ja)
-   3 Korean (ko)
+   1. English (en)
+   2. Japanese (ja)
+   3. Korean (ko)
 
 - Detects language automatically based on character patterns
 
@@ -21,7 +21,7 @@ Features
 
 ---
 
-Requirements
+# Requirements
 For Standalone Use:
 - Python 3.6+
 
