@@ -2,7 +2,6 @@
 A Python tool for extracting document outlines (headings structure) from PDF files with multilingual support, available as both a standalone script and a Docker container.
 Extract structured outlines (H1, H2, H3) from PDF documents using font-size heuristics.
 
----
 # Features
 - Extracts headings (H1, H2, H3) from PDF documents
 
@@ -19,7 +18,6 @@ Extract structured outlines (H1, H2, H3) from PDF documents using font-size heur
 
 - Docker support for easy deployment
 
----
 
 # Requirements
 For Standalone Use:
