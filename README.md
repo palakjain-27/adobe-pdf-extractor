@@ -4,36 +4,30 @@ Extract structured outlines (H1, H2, H3) from PDF documents using font-size heur
 
 ---
 Features
-Extracts headings (H1, H2, H3) from PDF documents
+-Extracts headings (H1, H2, H3) from PDF documents
 
-Supports multiple languages including:
+-Supports multiple languages including:
+ -English (en)
+ -Japanese (ja)
+ -Korean (ko)
 
-English (en)
+-Detects language automatically based on character patterns
 
-Japanese (ja)
+-Preserves document structure with page numbers
 
-Korean (ko)
+-Generates JSON output with document metadata
 
-Detects language automatically based on character patterns
-
-Preserves document structure with page numbers
-
-Generates JSON output with document metadata
-
-Docker support for easy deployment
+-Docker support for easy deployment
 ---
 
 Requirements
 For Standalone Use:
-Python 3.6+
+-Python 3.6+
 
 Dependencies listed in requirements.txt:
-
-pdfminer.six
-
-pdfplumber
-
-regex
+-pdfminer.six
+-pdfplumber
+-regex
 
 For Docker Use:
 Docker installed on your system
