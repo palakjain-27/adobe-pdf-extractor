@@ -29,7 +29,7 @@ Dependencies listed in requirements.txt:
 - regex
 
 For Docker Use:
-Docker installed on your system
+- Docker installed on your system
 
 # How it works
 - Processes all PDFs inside `/app/input/`
