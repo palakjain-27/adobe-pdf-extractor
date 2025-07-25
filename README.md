@@ -30,9 +30,8 @@ Dependencies listed in requirements.txt:
 
 For Docker Use:
 Docker installed on your system
----
 
-How it works
+# How it works
 - Processes all PDFs inside `/app/input/`
 - Outputs a structured JSON outline in `/app/output/`
 - Detects headings based on font size and position
