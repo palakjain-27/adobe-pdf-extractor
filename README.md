@@ -7,9 +7,9 @@ Features
 - Extracts headings (H1, H2, H3) from PDF documents
 
 - Supports multiple languages including:
- - English (en)
- - Japanese (ja)
- - Korean (ko)
+   1 English (en)
+   2 Japanese (ja)
+   3 Korean (ko)
 
 - Detects language automatically based on character patterns
 
