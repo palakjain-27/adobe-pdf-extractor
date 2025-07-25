@@ -21,6 +21,7 @@ Preserves document structure with page numbers
 Generates JSON output with document metadata
 
 Docker support for easy deployment
+---
 
 Requirements
 For Standalone Use:
@@ -36,6 +37,7 @@ regex
 
 For Docker Use:
 Docker installed on your system
+---
 
 How it works
 - Processes all PDFs inside `/app/input/`
