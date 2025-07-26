@@ -91,16 +91,24 @@ OUTPUT_DIR: Directory where JSON output will be saved (default: /app/output)
 
 How It Works
 Language Detection: The tool analyzes text character patterns to determine the document's primary language
+
 Font Analysis: Calculates average font size to identify heading sizes relative to body text
+
 Heading Detection: Uses language-specific heuristics to identify headings at different levels (H1-H3)
+
 Structure Extraction: Groups consecutive words and identifies document structure
 
 Dockerfile Contents
 The Docker image is built with the following configuration:
+
 Based on official Python 3.9-slim image
+
 Installs all required dependencies from requirements.txt
+
 Copies the application code into the container
+
 Sets the working directory to /app
+
 Configures the entrypoint to run main.py
 
 Limitations
