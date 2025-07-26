@@ -42,8 +42,7 @@ Build & Run
 
 ```bash
 docker build -t pdf-outline .
-
-
+```
 
 
 ## Installation
