@@ -36,15 +36,6 @@ For Docker Use:
 - Outputs a structured JSON outline in `/app/output/`
 - Detects headings based on font size and position
 
-Build & Run
-
-1. Build Docker image:
-
-```bash
-docker build -t pdf-outline .
-```
-
-
 ## Installation
 Standalone Installation:
 Clone the repository or download the files
@@ -54,37 +45,20 @@ Install dependencies:
 bash
 pip install -r requirements.txt
 Docker Installation:
-Build the Docker image:
 
-bash
-docker build -t pdf-outline-extractor .
+Build the Docker image:
+```bash
+docker build -t pdf-extractor-multilingual .
+```
 Usage
 Standalone Usage:
 Place your PDF files in the /app/input directory (create it if it doesn't exist)
 
-Run the script:
-
-bash
-python main.py
-The tool will process all PDFs in the input directory and generate JSON files in /app/output
-
-Docker Usage:
-Create input and output directories on your host machine:
-
-bash
-mkdir -p ./input ./output
-Place your PDF files in the ./input directory
-
-Run the Docker container:
-
-bash
-docker run -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output pdf-outline-extractor
+Run the docker Container:
+```bash
+docker run --rm -v %cd%/input:/app/input -v %cd%/output:/app/output pdf-extractor-multilingual
+```
 The tool will process all PDFs and save JSON outputs in ./output
-
-Volume Mounts Explanation:
--v $(pwd)/input:/app/input - Maps host's ./input to container's /app/input
-
--v $(pwd)/output:/app/output - Maps host's ./output to container's /app/output
 
 Output Format
 The tool generates JSON files with the following structure:
