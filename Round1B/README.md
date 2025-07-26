@@ -128,7 +128,7 @@ python app/main.py
 4. **Adaptive Thresholding**: Dynamic relevance cutoff based on content quality
 
 ### Section Selection
-- Top 20 most relevant sections selected for output
+- Top 25 most relevant sections selected for output (if 25 are there based on similarity)
 - Minimum relevance threshold of 0.1 to ensure quality
 - Balanced representation across input documents when possible
 
