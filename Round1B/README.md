@@ -95,17 +95,15 @@ The system generates a `challenge1b_output.json` file with the following structu
 
 ### Docker Build
 ```bash
-docker build --platform linux/amd64 -t persona-doc-intelligence:latest .
+docker build --platform linux/amd64 -t round1b-extractor.
 ```
 
 ### Docker Run
 ```bash
-docker run --rm \
-  -v $(pwd)/input:/app/input \
-  -v $(pwd)/output:/app/output \
-  --network none \
-  persona-doc-intelligence:latest
+docker run --rm -v %cd%/input:/app/input -v %cd%/output:/app/output round1b-extractor
 ```
+### Notes:
+Ensure you are inside the Round1B directory when running these commands.
 
 ### Local Development
 ```bash
