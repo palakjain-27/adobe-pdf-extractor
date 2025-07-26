@@ -89,14 +89,14 @@ INPUT_DIR: Directory where input PDFs are stored (default: /app/input)
 OUTPUT_DIR: Directory where JSON output will be saved (default: /app/output)
 ```
 
-## 🔍 How It Works
+## How It Works
 
 - **Language Detection**: Analyzes text character patterns to determine the document's primary language.
 - **Font Analysis**: Calculates average font size to identify heading sizes relative to body text.
 - **Heading Detection**: Applies language-specific heuristics to identify headings at different levels (H1–H3).
 - **Structure Extraction**: Groups consecutive words and identifies the document's structure.
 
-## 🐳 Dockerfile Contents
+## Dockerfile Contents
 
 The Docker image is built with the following configuration:
 
@@ -106,7 +106,7 @@ The Docker image is built with the following configuration:
 - Sets the working directory to `/app`
 - Configures the entrypoint to run `main.py`
 
-## ⚠️ Limitations
+## Limitations
 
 - Works best with text-based PDFs (not scanned documents)
 - Heading detection may not be perfect for complex layouts
