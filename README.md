@@ -62,7 +62,7 @@ The tool will process all PDFs and save JSON outputs in ./output
 
 Output Format
 The tool generates JSON files with the following structure:
-
+```bash
 json
 {
   "title": "Document Title",
@@ -81,12 +81,11 @@ json
     "total_pages": 10
   }
 }
-
+```
 Configuration
 You can modify the following constants in main.py:
 
 INPUT_DIR: Directory where input PDFs are stored (default: /app/input)
-
 OUTPUT_DIR: Directory where JSON output will be saved (default: /app/output)
 
 How It Works
